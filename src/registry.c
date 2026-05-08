@@ -93,13 +93,13 @@ void registry_list(Registry* reg)
 		return;
 	}
 
-	printf("%-5s %-20s %-15s %-6s %s\n", "ID", "Name", "Major", "GPA", "Year");
-	printf("------------------------------------------------------\n");
+	printf("%-5s %-20s %-20s %-7s %s\n", "ID", "Name", "Major", "GPA", "Year");
+	printf("-----------------------------------------------------------\n");
 
 	for(int i = 0; i < reg->count; i++)
 	{
 		Student* s = &reg->students[i];
-		printf("%-5d %-20s %-15s %-6.2f %d\n", s->id, s->name, s->major, s->gpa, s->yearLvl);
+		printf("%-5d %-20s %-20s %-7.2f %d\n", s->id, s->name, s->major, s->gpa, s->yearLvl);
 	}
 }
 
