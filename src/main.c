@@ -2,31 +2,28 @@
 #include "../include/student.h"
 #include "../include/registry.h"
 #include "../include/fileio.h"
+#include "../include/menu.h"
 
-
-// TODO: Test all Registry functions. Do student.c
 
 int main()
 {
-	// Create Registry struct variable 
+	// Create Registry struct variable
 	Registry reg;
 	
-	// Initialize and Load Registry
-	registry_init(&reg);	
+	// Initialize Registry
+	registry_init(&reg);
+
+	//Load Registry
 	fileio_load(&reg);
 
-	// Create Students
-	
+	// Menu
+	menu_run(&reg);	
 
-	// Add student to registry
-	
+	// Save Registry
+	fileio_save(&reg);
 
-	// List Registry
-	registry_list(&reg);
-
-	// Free and Save Registry
-	// fileio_save(&reg);
-	registry_free(&reg);	
+	// Free Registry
+	registry_free(&reg);
 
 	return 0;
 }
