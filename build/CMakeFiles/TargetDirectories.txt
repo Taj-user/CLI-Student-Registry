@@ -1,0 +1,3 @@
+C:/Users/tajro/OneDrive/Desktop/c/c1/CLIStudentRegistry/build/CMakeFiles/registry.dir
+C:/Users/tajro/OneDrive/Desktop/c/c1/CLIStudentRegistry/build/CMakeFiles/edit_cache.dir
+C:/Users/tajro/OneDrive/Desktop/c/c1/CLIStudentRegistry/build/CMakeFiles/rebuild_cache.dir

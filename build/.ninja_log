@@ -1,0 +1,7 @@
+# ninja log v7
+2	351	8000467998869530	CMakeFiles/registry.dir/src/main.c.obj	f28d0bc7b55ca21
+40	439	8000467999132541	CMakeFiles/registry.dir/src/student.c.obj	f934bed3ecba52a5
+23	447	8000467998959422	CMakeFiles/registry.dir/src/menu.c.obj	f09ae76a81413dae
+48	511	8000467999206071	CMakeFiles/registry.dir/src/fileio.c.obj	228bad76ba13636e
+29	546	8000467999022729	CMakeFiles/registry.dir/src/registry.c.obj	39daad58cd865e05
+546	799	8000468004195042	registry.exe	a8b262a896c2b9a8
