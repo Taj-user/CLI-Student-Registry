@@ -62,7 +62,7 @@ int registry_delete_by_id(Registry* reg, int id)
 
 	reg->count--;
 
-	return 0;
+	return 1;
 }
 
 Student* registry_search_by_id(Registry* reg, int id)
